@@ -1,6 +1,6 @@
-"use monitoring";
+"use client";
 
-import { Activity, ShieldAlert, LineChart, MoveUpRight, ArrowDownRight, AlertTriangle } from "lucide-react";
+import { Activity, ShieldAlert, LineChart, MoveUpRight, AlertTriangle } from "lucide-react";
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { useIntelligenceStore } from "@/store/intelligenceStore";
 
